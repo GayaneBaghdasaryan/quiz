@@ -1,0 +1,13 @@
+.info{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+.info h1{
+    color:#35227a;    
+  }

@@ -1,0 +1,27 @@
+.cover{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./pic.jpg) 
+}
+.cover input{
+  margin-top: 100px;
+  width: 200px;
+  height: 60px;
+  font-size: xx-large;
+  background:#ede4f0;
+  color:#6c456f;  
+}
+.cover button{
+  width: 130px;
+  height: 50px;
+  background: none;
+  font-size: larger;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  color:#ede4f0;
+}
