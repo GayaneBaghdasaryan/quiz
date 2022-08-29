@@ -5,15 +5,15 @@ import WeatherAPI from './GetTemp';
 
 
 const MyWeather = () => {
-  const [enterVal, setEnterValue] = useState("")
-  const [getVal, setGetValue] = useState("")
+  const [enterValue, setEnterValue] = useState("")
+  const [getValue, setGetValue] = useState('')
 
   return (
       <div className="cover">
        <input type="text" onChange={(e) => setEnterValue(e.target.value)}></input>
-       <button onClick={()=>setGetValue([enterVal])}>OK</button>
+       <button onClick={()=>setGetValue([enterValue])}>OK</button>
        
-       {getVal && < WeatherAPI data={getVal}/>}
+       {getValue && < WeatherAPI data={getValue}/>}
       </div>
   )
 }
